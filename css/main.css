@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Grandstander', cursive; */
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+/* Header */
+
+header {
+    opacity: .7;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Slider */
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;    
+}
+
+.carousel-indicators li {
+    margin: 0 0.5rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* Programs */
+
+.programs {
+    min-height: 100vh;
+}
+
+.programs-title {
+    text-align: center;
+    text-transform: uppercase;  
+    font-weight: bold;  
+}
+
+.card {
+    width: 20rem;
+    text-align: center;
+}
